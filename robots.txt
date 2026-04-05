@@ -1,0 +1,13 @@
+# Robots.txt for LegendLLM.com
+# Managed by EliJul Group
+
+User-agent: *
+Allow: /
+
+# Prevent indexing of temporary or private folders if added in the future
+Disallow: /cgi-bin/
+Disallow: /admin/
+
+# Host and Sitemap location
+Host: https://legendllm.com
+Sitemap: https://legendllm.com/sitemap.xml
